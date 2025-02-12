@@ -139,7 +139,7 @@ const TicketForm = ({ selectedTicket, ticketCount, onSubmit, onBack }) => {
               />
   
               <label className="block mt-4 mb-2">
-                Avatar Image URL (Optional):
+                Avatar Image URL :
               </label>
               <input
                 type="text"
@@ -150,7 +150,7 @@ const TicketForm = ({ selectedTicket, ticketCount, onSubmit, onBack }) => {
                 placeholder="Paste image URL here"
               />
   
-              <label className="block mt-4 mb-2">Or Upload Avatar:</label>
+              <label className="block mt-4 mb-2">Or Upload Avatar (Optional):</label>
               <input
                 type="file"
                 accept="image/*"
