@@ -25,7 +25,7 @@ const TicketSelection = ({ onSelect }) => {
   
       {/* Ticket Selection Section */}
       <h2 className="text-xl sm:text-2xl font-bold mt-6 mb-4 text-center">Select Your Ticket</h2>
-      <div className="grid gap-4 w-full sm:grid-cols-2 lg:grid-cols-3 place-items-center">
+      <div className="grid gap-3 w-[50%] sm:grid-cols-2 lg:grid-cols-3 place-items-cente">
         {tickets.map((ticket) => (
           <button
             key={ticket.type}
